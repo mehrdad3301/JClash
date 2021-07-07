@@ -16,20 +16,20 @@
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SignUpController">
    <left>
-      <AnchorPane BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="406.0" prefWidth="271.0" BorderPane.alignment="CENTER">
          <children>
-            <ImageView fitHeight="407.0" fitWidth="277.0" layoutX="-2.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="417.0" fitWidth="304.0" layoutX="-32.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@photos/Halloween_Theme_ClashRoyal.png" />
+                  <Image url="@photos/SignUp_pic.png" />
                </image>
             </ImageView>
          </children>
       </AnchorPane>
    </left>
    <center>
-      <AnchorPane style="-fx-background-color: #8a2be2;" BorderPane.alignment="CENTER">
+      <AnchorPane style="-fx-background-color: #808080;" BorderPane.alignment="CENTER">
          <children>
-            <GridPane alignment="CENTER" hgap="4.0" layoutX="59.0" layoutY="132.0">
+            <GridPane alignment="CENTER" hgap="4.0" layoutX="47.0" layoutY="133.0" prefHeight="120.0" prefWidth="234.0">
               <columnConstraints>
                   <ColumnConstraints hgrow="SOMETIMES" maxWidth="121.0" minWidth="10.0" prefWidth="26.0" />
                   <ColumnConstraints maxWidth="244.0" minWidth="160.0" prefWidth="201.0" />
@@ -40,7 +40,7 @@
                   <RowConstraints maxHeight="46.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <TextField fx:id="UserField" prefHeight="18.0" prefWidth="206.0" promptText="Username" style="-fx-background-color: #6495ed;" GridPane.columnIndex="1" />
+                  <TextField fx:id="UserField" prefHeight="18.0" prefWidth="206.0" promptText="Username" style="-fx-background-color: #4682b4;" GridPane.columnIndex="1" />
                   <ImageView fitHeight="23.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@photos/Account_Icon.png" />
@@ -51,8 +51,8 @@
                         <Image url="@photos/Key_Icon.png" />
                      </image>
                   </ImageView>
-                  <PasswordField fx:id="PasswordField1" promptText="Password" style="-fx-background-color: #6495ed;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                  <PasswordField fx:id="PasswordField2" promptText="Password" style="-fx-background-color: #6495ed;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <PasswordField fx:id="PasswordField1" promptText="Password" style="-fx-background-color: #4682b4;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <PasswordField fx:id="PasswordField2" promptText="Password" style="-fx-background-color: #4682b4;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                   <ImageView fitHeight="21.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
                      <image>
                         <Image url="@photos/Key_Icon.png" />
@@ -61,13 +61,13 @@
                </children>
             </GridPane>
             <Label layoutX="129.0" layoutY="110.0" prefHeight="17.0" prefWidth="40.0" />
-            <Hyperlink fx:id="LoginLink" layoutX="168.0" layoutY="286.0" onAction="#actionHandler" text="Log in" />
+            <Hyperlink fx:id="LoginLink" layoutX="156.0" layoutY="286.0" onAction="#actionHandler" text="Log in" />
             <ImageView fitHeight="133.0" fitWidth="300.0" layoutX="44.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@photos/ClashRoyal_Login.png" />
                </image>
             </ImageView>
-            <Button fx:id="SignUpButton" layoutX="115.0" layoutY="262.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefWidth="153.0" style="-fx-background-color: #6495ed; -fx-background-radius: 20;" text="Sign up" textFill="WHITE">
+            <Button fx:id="SignUpButton" layoutX="103.0" layoutY="262.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefWidth="153.0" style="-fx-background-color: #4682b4; -fx-background-radius: 20;" text="Sign up" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>

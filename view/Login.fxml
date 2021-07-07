@@ -23,13 +23,18 @@
                   <Image url="@photos/Halloween_Theme_ClashRoyal.png" />
                </image>
             </ImageView>
+            <ImageView fitHeight="114.0" fitWidth="185.0" layoutX="42.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photos/ClashRoyal_Login.png" />
+               </image>
+            </ImageView>
          </children>
       </AnchorPane>
    </left>
    <center>
       <AnchorPane style="-fx-background-color: #8a2be2;" BorderPane.alignment="CENTER">
          <children>
-            <GridPane alignment="CENTER" hgap="4.0" layoutX="59.0" layoutY="132.0">
+            <GridPane alignment="CENTER" hgap="4.0" layoutX="48.0" layoutY="105.0" prefHeight="108.0" prefWidth="233.0">
               <columnConstraints>
                   <ColumnConstraints hgrow="SOMETIMES" maxWidth="121.0" minWidth="10.0" prefWidth="26.0" />
                   <ColumnConstraints maxWidth="244.0" minWidth="160.0" prefWidth="201.0" />
@@ -54,17 +59,17 @@
                </children>
             </GridPane>
             <Label layoutX="129.0" layoutY="110.0" prefHeight="17.0" prefWidth="40.0" />
-            <Hyperlink fx:id="SignUpLink" layoutX="157.0" layoutY="247.0" onAction="#actionHandler" text="Sign up" />
-            <ImageView fitHeight="133.0" fitWidth="300.0" layoutX="44.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@photos/ClashRoyal_Login.png" />
-               </image>
-            </ImageView>
-            <Button fx:id="LoginButton" layoutX="109.0" layoutY="223.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefWidth="153.0" style="-fx-background-color: #6495ed; -fx-background-radius: 20;" text="Log in" textFill="WHITE">
+            <Hyperlink fx:id="SignUpLink" layoutX="147.0" layoutY="247.0" onAction="#actionHandler" text="Sign up" />
+            <Button fx:id="LoginButton" layoutX="99.0" layoutY="223.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefWidth="153.0" style="-fx-background-color: #6495ed; -fx-background-radius: 20;" text="Log in" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Button>
+            <ImageView fitHeight="53.0" fitWidth="81.0" layoutX="149.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photos/Lock.png" />
+               </image>
+            </ImageView>
          </children>
       </AnchorPane>
    </center>
