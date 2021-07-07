@@ -16,18 +16,18 @@
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
    <left>
-      <AnchorPane prefHeight="400.0" prefWidth="203.0" style="-fx-background-image: photos/Tela de Carregamento Halloween 2019.png;" BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="406.0" prefWidth="269.0" style="-fx-background-image: photos/Tela de Carregamento Halloween 2019.png;" BorderPane.alignment="CENTER">
          <children>
-            <ImageView fitHeight="400.0" fitWidth="287.0" layoutX="-2.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="407.0" fitWidth="277.0" layoutX="-2.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@photos/Tela%20de%20Carregamento%20Halloween%202019.png" />
+                  <Image url="@photos/Halloween_Theme_ClashRoyal.png" />
                </image>
             </ImageView>
          </children>
       </AnchorPane>
    </left>
-   <center>
-      <AnchorPane prefHeight="400.0" prefWidth="329.0" style="-fx-background-color: #8a2be2;" BorderPane.alignment="CENTER">
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="335.0" style="-fx-background-color: #8a2be2;" BorderPane.alignment="CENTER">
          <children>
             <GridPane alignment="CENTER" hgap="4.0" layoutX="59.0" layoutY="132.0" prefHeight="72.0" prefWidth="227.0">
               <columnConstraints>
@@ -57,7 +57,7 @@
             <Hyperlink layoutX="157.0" layoutY="247.0" text="Sign up" />
             <ImageView fitHeight="133.0" fitWidth="300.0" layoutX="44.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@photos/Logo%20do%20Jogo.png" />
+                  <Image url="@photos/ClashRoyal_Login.png" />
                </image>
             </ImageView>
             <Button layoutX="109.0" layoutY="223.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="24.0" prefWidth="153.0" style="-fx-background-color: #6495ed; -fx-background-radius: 20;" text="Log in" textFill="WHITE">
@@ -67,5 +67,5 @@
             </Button>
          </children>
       </AnchorPane>
-   </center>
+   </right>
 </BorderPane>
