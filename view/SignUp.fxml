@@ -14,7 +14,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SignUpController">
    <left>
       <AnchorPane BorderPane.alignment="CENTER">
          <children>
@@ -37,6 +37,7 @@
               <rowConstraints>
                 <RowConstraints maxHeight="41.0" minHeight="10.0" prefHeight="41.0" vgrow="SOMETIMES" />
                 <RowConstraints maxHeight="46.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="46.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
                   <TextField fx:id="UserField" prefHeight="18.0" prefWidth="206.0" promptText="Username" style="-fx-background-color: #6495ed;" GridPane.columnIndex="1" />
@@ -50,17 +51,23 @@
                         <Image url="@photos/Key_Icon.png" />
                      </image>
                   </ImageView>
-                  <PasswordField fx:id="PasswordField" promptText="Password" style="-fx-background-color: #6495ed;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <PasswordField fx:id="PasswordField1" promptText="Password" style="-fx-background-color: #6495ed;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <PasswordField fx:id="PasswordField2" promptText="Password" style="-fx-background-color: #6495ed;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <ImageView fitHeight="21.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+                     <image>
+                        <Image url="@photos/Key_Icon.png" />
+                     </image>
+                  </ImageView>
                </children>
             </GridPane>
             <Label layoutX="129.0" layoutY="110.0" prefHeight="17.0" prefWidth="40.0" />
-            <Hyperlink fx:id="SignUpLink" layoutX="157.0" layoutY="247.0" onAction="#actionHandler" text="Sign up" />
+            <Hyperlink fx:id="LoginLink" layoutX="168.0" layoutY="286.0" onAction="#actionHandler" text="Log in" />
             <ImageView fitHeight="133.0" fitWidth="300.0" layoutX="44.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@photos/ClashRoyal_Login.png" />
                </image>
             </ImageView>
-            <Button fx:id="LoginButton" layoutX="109.0" layoutY="223.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefWidth="153.0" style="-fx-background-color: #6495ed; -fx-background-radius: 20;" text="Log in" textFill="WHITE">
+            <Button fx:id="SignUpButton" layoutX="115.0" layoutY="262.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefWidth="153.0" style="-fx-background-color: #6495ed; -fx-background-radius: 20;" text="Sign up" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
