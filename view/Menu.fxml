@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="382.0" fitWidth="603.0" layoutY="-43.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-16.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@photos/BackGround_Theme.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="150.0" layoutX="144.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photos/ClashRoyal_Login2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="150.0" layoutX="313.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photos/ClashRoyal_Login2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="227.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photos/arena.jpg" />
+               </image>
+            </ImageView>
+            <HBox layoutX="-2.0" layoutY="-10.0" prefHeight="75.0" prefWidth="607.0">
+               <effect>
+                  <Shadow color="#0d0d0d">
+                     <input>
+                        <InnerShadow />
+                     </input>
+                  </Shadow>
+               </effect>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="18.0" prefHeight="55.0" prefWidth="200.0">
+               <opaqueInsets>
+                  <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+               </opaqueInsets>
+               <children>
+                  <ImageView fitHeight="56.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@photos/Halloween_Theme_ClashRoyal.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets right="70.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@photos/Elixir_Icon.png" />
+                     </image>
+                  </ImageView>
+                  <Label text="0">
+                     <HBox.margin>
+                        <Insets left="8.0" top="15.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </center>
+   <bottom>
+      <HBox prefHeight="76.0" prefWidth="600.0" style="-fx-background-color: gray;" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+         </padding>
+         <children>
+            <ImageView fitHeight="61.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin>
+               <image>
+                  <Image url="@photos/Elixir_Icon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="61.0" fitWidth="117.0" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin>
+               <image>
+                  <Image url="@photos/Elixir_Icon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="61.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin>
+               <image>
+                  <Image url="@photos/Elixir_Icon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="61.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin>
+               <image>
+                  <Image url="@photos/Elixir_Icon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="61.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photos/Elixir_Icon.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin>
+            </ImageView>
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>
