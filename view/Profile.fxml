@@ -14,7 +14,7 @@
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
     <bottom>
-        <HBox prefHeight="76.0" prefWidth="600.0" style="-fx-background-color: gray;" BorderPane.alignment="CENTER">
+        <HBox prefHeight="77.0" prefWidth="590.0" style="-fx-background-color: #8eacbb;" BorderPane.alignment="CENTER">
             <padding>
                 <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
             </padding>
@@ -24,7 +24,7 @@
                         <Insets left="30.0" right="50.0" />
                     </HBox.margin>
                     <image>
-                        <Image url="@photos/Icones%20em%20Geral/Interface/Livro.png" />
+                        <Image url="@photos/Livro.png" />
                     </image>
                 </ImageView>
                 <ImageView fitHeight="61.0" fitWidth="117.0" pickOnBounds="true" preserveRatio="true">
@@ -32,7 +32,7 @@
                         <Insets right="50.0" />
                     </HBox.margin>
                     <image>
-                        <Image url="@photos/Icones%20em%20Geral/Interface/Cartas.png" />
+                        <Image url="@photos/Cartas.png" />
                     </image>
                 </ImageView>
                 <ImageView fitHeight="61.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
@@ -40,7 +40,7 @@
                         <Insets right="50.0" />
                     </HBox.margin>
                     <image>
-                        <Image url="@photos/Icones%20em%20Geral/Interface/Botao%20de%20Batalha.png" />
+                        <Image url="@photos/Botao%20de%20Batalha.png" />
                     </image>
                 </ImageView>
                 <ImageView fitHeight="61.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
@@ -48,12 +48,12 @@
                         <Insets right="50.0" />
                     </HBox.margin>
                     <image>
-                        <Image url="@photos/Icones%20de%20Missao/Icone%20de%20Missao%203.png" />
+                        <Image url="@photos/Icone%20de%20Missao%203.png" />
                     </image>
                 </ImageView>
                 <ImageView fitHeight="61.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@photos/Icones%20em%20Geral/Interface/Novidades.png" />
+                        <Image url="@photos/Novidades.png" />
                     </image>
                     <HBox.margin>
                         <Insets right="20.0" />
@@ -66,17 +66,17 @@
         </HBox>
     </bottom>
    <right>
-        <AnchorPane prefHeight="328.0" prefWidth="607.0" BorderPane.alignment="CENTER">
+        <AnchorPane prefHeight="359.0" prefWidth="496.0" BorderPane.alignment="CENTER">
             <children>
-                <ImageView fitHeight="382.0" fitWidth="609.0" layoutX="-1.0" layoutY="-23.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="7.4375" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="-23.0">
+                <ImageView fitHeight="342.0" fitWidth="703.0" layoutX="-183.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-18.0" AnchorPane.leftAnchor="-183.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-1.0">
                     <image>
-                        <Image url="@photos/BackGround_Theme.png" />
+                        <Image url="@photos/27.png" />
                     </image>
                 </ImageView>
-            <GridPane hgap="8.0" layoutX="14.0" layoutY="14.0" prefHeight="122.0" prefWidth="200.0" style="-fx-background-color: gray;" vgap="8.0">
+            <GridPane hgap="8.0" layoutX="-66.0" layoutY="33.0" prefHeight="122.0" prefWidth="200.0" style="-fx-background-color: #2286c3;" vgap="8.0" AnchorPane.bottomAnchor="197.0">
               <columnConstraints>
-                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="90.0" minWidth="10.0" prefWidth="84.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="10.0" prefWidth="92.0" />
               </columnConstraints>
               <rowConstraints>
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
@@ -95,7 +95,7 @@
                         <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
                      </padding>
                      <GridPane.margin>
-                        <Insets left="20.0" />
+                        <Insets />
                      </GridPane.margin>
                      <font>
                         <Font name="AdobeHeitiStd-Regular" size="18.0" />
@@ -112,12 +112,12 @@
                         <Font name="AdobeHeitiStd-Regular" size="18.0" />
                      </font>
                   </Label>
-                  <ImageView fitHeight="44.0" fitWidth="66.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                  <ImageView fitHeight="36.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                      <GridPane.margin>
-                        <Insets left="8.0" />
+                        <Insets />
                      </GridPane.margin>
                      <image>
-                        <Image url="@photos/ClashRoyal_Login.png" />
+                        <Image url="@photos/Trofeu2.png" />
                      </image>
                   </ImageView>
                   <Label text="0" textFill="#eee306" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
@@ -130,7 +130,7 @@
                   </Label>
                   <ImageView fitHeight="29.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                      <image>
-                        <Image url="@photos/ClashRoyal_Login.png" />
+                        <Image url="@photos/XP.png" />
                      </image>
                   </ImageView>
                   <Label text="0" textFill="#2a5a9e" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
@@ -146,11 +146,103 @@
                   </Label>
                </children>
             </GridPane>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="190.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="119.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@photos/ClashRoyal_Login.png" />
                </image>
             </ImageView>
+            <ImageView fitHeight="268.0" fitWidth="223.0" layoutX="288.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photos/images%20(12).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="268.0" fitWidth="223.0" layoutX="288.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photos/images%20(12).jpg" />
+               </image>
+            </ImageView>
+            <GridPane hgap="5.0" layoutX="300.0" layoutY="20.0" prefHeight="135.0" prefWidth="205.0" vgap="20.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <padding>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+               </padding>
+               <children>
+                  <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER">
+                     <image>
+                        <Image url="@photos/archers.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="33.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+                     <image>
+                        <Image url="@photos/rage.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="134.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                     <image>
+                        <Image url="@photos/fire_fireball.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="134.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                     <image>
+                        <Image url="@photos/giant.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </GridPane>
+            <GridPane hgap="5.0" layoutX="297.0" layoutY="167.0" prefHeight="135.0" prefWidth="205.0" vgap="20.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="102.0" minWidth="10.0" prefWidth="102.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="104.0" minWidth="10.0" prefWidth="103.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER">
+                     <image>
+                        <Image url="@photos/barbarians.png" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets left="9.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+                     <image>
+                        <Image url="@photos/baby_dragon.png" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets left="9.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="36.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                     <image>
+                        <Image url="@photos/mini_pekka.png" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets left="9.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="14.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                     <image>
+                        <Image url="@photos/wizard.png" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets left="9.0" />
+                     </GridPane.margin>
+                  </ImageView>
+               </children>
+               <padding>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+               </padding>
+            </GridPane>
             </children>
         </AnchorPane>
    </right>
