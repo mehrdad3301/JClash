@@ -32,6 +32,12 @@ public class LoginController {
     private void actionHandler(ActionEvent event) throws IOException {
         if(event.getSource() == LoginButton){
 
+            Parent root = FXMLLoader.load(getClass().getResource("../view/Profile.fxml"));
+            Stage stage = (Stage) SignUpLink.getScene().getWindow();
+            stage.setScene(new Scene(root));
+            stage.setResizable(false);
+            stage.show();
+
         }
         else if(event.getSource() == SignUpLink){
 
