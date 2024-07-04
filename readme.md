@@ -3,10 +3,7 @@ JClash is a clone of the popular and beloved game, "Clash Royale". The entire ga
 
 ### Game Play 
 
-<video width="600" controls>
-  <source src="assets/gameplay.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/mehrdad3301/JClash/assets/70322560/bb24c1ca-ff64-49dd-b0c5-a6ac713ef030
 
 ### Walk through 
 
